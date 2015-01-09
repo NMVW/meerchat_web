@@ -6,249 +6,8 @@
   <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/animate.min.css">
-  <style>
-
-h1, h2, h3, h4, h5 { 
-  color: white;
-  font-family: ForgottenFuturistRg-Bold; 
-  font-weight: normal; 
-  font-style: normal; 
-}
-
-.ForgottenFuturistRg-Regular { 
-  font-family: ForgottenFuturistRg-Regular;
-  font-weight: normal;
-  font-style: normal;
-}
-
-.ForgottenFuturistRg-Bold { 
-  font-family: ForgottenFuturistRg-Bold;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@media(min-width: 992px) {
-  body { overflow: hidden; }
-  container { background-color: #FF0000; }
-}
-
-.divider { height: 10vh; }
-
-.popover {
-  width: 25em;
-}
-
-.img-milo {
-  max-height: 60vh;
-  height: auto;
-  max-width: 100%;
-}
-
-.img-ios {
-  width: auto;
-  max-height: 100%;
-}
-
-.center-y {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.checkbox > label { font-weight: bold; }
-
-h1 { 
-  font-size: 11.0em;
-}
-
-h2 {
-  font-size: 6.0em;
-  font-family: inherit;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 3.6em;
-  font-family: inherit;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 3.3em;
-  font-family: inherit;
-  font-weight: bold;
-}
-
-h5 {
-  font-size: 2.8em;
-  font-family: inherit;
-  font-weight: bold;
-}
-
-p {
-  font-size: 2vmin;
-}
-
-body {
-  background-color: #ffa100;
-}
-
-.navbar-brand
-{
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
-  margin: auto;
-  font-size: 3.9em;
-}
-
-.navbar-default {
-	background-color: #194367;
-	border-color: #45739f;
-}
-.navbar-default .navbar-brand {
-	color: #f3f2f3;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-	color: #ffffff;
-}
-.navbar-default .navbar-text {
-	color: #f3f2f3;
-}
-.navbar-default .navbar-nav > li > a {
-	color: #f3f2f3;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: #45739f;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	color: #ffffff;
-	background-color: #45739f;
-}
-.navbar-default .navbar-toggle {
-	border-color: #45739f;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #45739f;
-}
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #f3f2f3;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-	border-color: #f3f2f3;
-}
-.navbar-default .navbar-link {
-	color: #f3f2f3;
-}
-.navbar-default .navbar-link:hover {
-	color: #ffffff;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #f3f2f3;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffffff;
-    background-color: #45739f;
-  }
-}
-
-.btn-baf { 
-  color: #ffffff; 
-  background-color: #184367; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf:hover, 
-.btn-baf:focus, 
-.btn-baf:active, 
-.btn-baf.active, 
-.open .dropdown-toggle.btn-baf { 
-  color: #ffffff; 
-  background-color: #45739F; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf:active, 
-.btn-baf.active, 
-.open .dropdown-toggle.btn-baf { 
-  background-image: none; 
-} 
- 
-.btn-baf.disabled, 
-.btn-baf[disabled], 
-fieldset[disabled] .btn-baf, 
-.btn-baf.disabled:hover, 
-.btn-baf[disabled]:hover, 
-fieldset[disabled] .btn-baf:hover, 
-.btn-baf.disabled:focus, 
-.btn-baf[disabled]:focus, 
-fieldset[disabled] .btn-baf:focus, 
-.btn-baf.disabled:active, 
-.btn-baf[disabled]:active, 
-fieldset[disabled] .btn-baf:active, 
-.btn-baf.disabled.active, 
-.btn-baf[disabled].active, 
-fieldset[disabled] .btn-baf.active { 
-  background-color: #184367; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf .badge { 
-  color: #184367; 
-  background-color: #ffffff; 
-}
-
-.grow, .grow-ios, .grow-icon {
-  -webkit-transition:all 0.5s ease-out;
-  -moz-transition:all 0.5s ease-out;
-  -ms-transition:all 0.5s ease-out;
-  -o-transition:all 0.5s ease-out;
-  transition:all 0.5s ease-out;
-}
-
-.grow:hover {
-  -webkit-transform:scale(1.25);
-  -moz-transform:scale(1.25);
-  -ms-transform:scale(1.25);
-  -o-transform:scale(1.25);
-  transform:scale(1.25);
-}
-
-.grow-ios:hover {
-  -webkit-transform:scale(1.05);
-  -moz-transform:scale(1.05);
-  -ms-transform:scale(1.05);
-  -o-transform:scale(1.05);
-  transform:scale(1.05);
-}
-
-.grow-icon:hover {
-  -webkit-transform:scale(1.5);
-  -moz-transform:scale(1.5);
-  -ms-transform:scale(1.5);
-  -o-transform:scale(1.5);
-  transform:scale(1.5);
-}
-  </style>
+  <link rel="stylesheet" href="css/meer.css">
 </head>
-<body>
-
 <!--
 /**
  * @license
@@ -277,8 +36,8 @@ fieldset[disabled] .btn-baf.active {
 */
 TO DO: Add acknowledgment to glyphicons artist.
 -->
-
-<div class="navbar navbar-default wow zoomInDown ForgottenFuturistRg-Regular">
+<body>
+<div class="navbar navbar-default wow zoomInDown ForgottenFuturistRg-Regular" data-wow-delay="4s" style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;"> 
   <div class="navbar-header">
     <a class="navbar-brand ForgottenFuturistRg-Bold" href="#">meerchat</a>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -288,31 +47,26 @@ TO DO: Add acknowledgment to glyphicons artist.
     </button>
   </div><!--/.navbar-header-->
   <div class="collapse navbar-collapse">
-    <ul class="nav navbar-nav navbar-left">
-      <li><a href="#">bafit</a></li>
-    </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="https://www.facebook.com/MeerchatApp">about</a></li>
-      <li><a href="mailto:bafit.llc@gmail.com">contact</a></li>
+      <li><a href="http:meerchat.mobi/about">about</a></li>
+      <li><a href="http:meerchat.mobi/contact">contact</a></li>
     </ul>
   </div><!--/.navbar-collapse-->
 </div><!--/.navbar navbar-default-->
 
-<!--<button type="button" class="btn btn-baf btn-lg hidden-xs pull-right" style="color: #ffffff; margin: 10px; padding: 21px;">Join us for the Meerchat beta test! ⇾</button>-->
-
 <div class="container">
   <div class="row">
     <div class="col-md-4 text-center center-block">
-      <div class="row wow fadeInLeftBig">
+      <div class="row wow rotateInDownLeft">
         <h3>No profiles here,<br><br></h3>
       </div>
-      <div class="row">
+      <div class="row wow zoomIn" data-wow-delay="4s" style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
         <a class="btn btn-lg btn-baf grow-ios ForgottenFuturistRg-Bold" data-placement="right" style="margin: 10px; padding: 21px; font-size: 2.0em;" href="https://itunes.apple.com/us/app/meerchat-uf/id940959954?ls=1&mt=8" id="popover">Get the app »</a>
       </div><!--/row-->
-      <div class="row wow fadeInLeftBig">
+      <div class="row wow rotateInUpRight" data-wow-delay="2s" style="-webkit-animation-delay: 2s; -moz-animation-delay: 2s; animation-delay: 2s;">
 	<h4><br>Just personality.<br><br></h4>
       </div><!--/.row-->
-      <div class="row wow fadeInLeftBig" style="padding: 20px;">
+      <div class="row wow zoomIn" style="padding: 20px;" data-wow-delay="4s" style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
         <div class="col-xs-3 col-xs-offset-2 text-center">
           <a href="https://twitter.com/MeerchatApp">
             <img class="grow-icon" src="img/icon_tw.png" height="96" width="96" alt="meerchat's twitter page">
@@ -326,26 +80,25 @@ TO DO: Add acknowledgment to glyphicons artist.
       </div><!--/.row-->
     </div><!--/.col-->
 
-    <div class="col-md-4 text-center wow zoomIn" data-wow-delay="1s">
-      <a href="#yourstory">
+    <div class="col-md-4 text-center wow zoomIn" data-wow-delay="4s" style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
+      <a href="#features">
         <img src="img/home_screen.png" class="img-ios grow-ios" alt="Meerchat home screen">
       </a>
     </div><!--/.col-->
 
-    <div class="col-md-4 text-center wow fadeInRightBig">
-      <a href="#milostory">
-        <img src="img/Milo_standing.png" class="img-milo grow" alt="Milo the Meerkat">
+    <div class="col-md-4 text-center wow fadeInRightBig" data-wow-delay="1s" style="-webkit-animation-delay: 1s; -moz-animation-delay: 1s; animation-delay: 1s;">
+      <a href="http://meerchat.mobi/yourStory">
+        <img src="img/Milo_standing.png" class="img-milo grow rotateIn" alt="Milo the Meerkat">
       </a>
     </div><!--/.col-->
 
-    <div class="col-md-4 text-center wow fadeInRightBig">
+    <div class="col-md-4 text-center wow zoomIn" data-wow-delay="4s" style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
       <div class="embed-responsive embed-responsive-16by9" style="background-color: #f2f2f2; margin-left: auto; margin-right: auto; margin-top: 24px;">
         <iframe class="embed-responsive-item" src="//www.youtube.com/embed/cBrEAD0nsek?list=UUagUXhv53XCulCHjhb2HuFg"></iframe>
       </div><!--/.embed-responsive-->
     </div><!--/.col-->
 
   </div><!--/.row-->
-
 
   <div class="divider">
     <p class="text-center center-y" style="color: #ffffff; font-size: 1.25em;"></p>
