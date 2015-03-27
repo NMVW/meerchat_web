@@ -1,18 +1,17 @@
-
-h1, h2, h3, h4, h5 { 
+h1, h2, h3, h4, h5 {
   color: white;
-  font-family: ForgottenFuturistRg-Bold; 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: ForgottenFuturistRg-Bold;
+  font-weight: normal;
+  font-style: normal;
 }
 
-.ForgottenFuturistRg-Regular { 
+.ForgottenFuturistRg-Regular {
   font-family: ForgottenFuturistRg-Regular;
   font-weight: normal;
   font-style: normal;
 }
 
-.ForgottenFuturistRg-Bold { 
+.ForgottenFuturistRg-Bold {
   font-family: ForgottenFuturistRg-Bold;
   font-weight: normal;
   font-style: normal;
@@ -50,7 +49,7 @@ h1, h2, h3, h4, h5 {
 
 .checkbox > label { font-weight: bold; }
 
-h1 { 
+h1 {
   font-size: 11.0em;
 }
 
@@ -97,50 +96,52 @@ body {
 }
 
 .navbar-default {
-	background-color: #194367;
-	border-color: #45739f;
+  background-color: #194367;
+  border-color: #45739f;
 }
 .navbar-default .navbar-brand {
-	color: #f3f2f3;
+  color: #f3f2f3;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-	color: #ffffff;
+  color: #ffffff;
 }
 .navbar-default .navbar-text {
-	color: #f3f2f3;
+  color: #f3f2f3;
 }
 .navbar-default .navbar-nav > li > a {
-	color: #f3f2f3;
+  font-size: 1.2em;
+  color: #f3f2f3;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #ffffff;
+  background-color: #45739f;
+  color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: #45739f;
+  color: #ffffff;
+  background-color: #45739f;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	color: #ffffff;
-	background-color: #45739f;
+  color: #ffffff;
+  background-color: #45739f;
 }
 .navbar-default .navbar-toggle {
-	border-color: #45739f;
+  border-color: #45739f;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #45739f;
+  background-color: #45739f;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #f3f2f3;
+  background-color: #f3f2f3;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-	border-color: #f3f2f3;
+  border-color: #f3f2f3;
 }
 .navbar-default .navbar-link {
-	color: #f3f2f3;
+  color: #f3f2f3;
 }
 .navbar-default .navbar-link:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -159,50 +160,50 @@ body {
   }
 }
 
-.btn-baf { 
-  color: #ffffff; 
-  background-color: #184367; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf:hover, 
-.btn-baf:focus, 
-.btn-baf:active, 
-.btn-baf.active, 
-.open .dropdown-toggle.btn-baf { 
-  color: #ffffff; 
+.btn-baf {
+  color: #ffffff;
+  background-color: #184367;
+  border-color: #45739f;
+}
+
+.btn-baf:hover,
+.btn-baf:focus,
+.btn-baf:active,
+.btn-baf.active,
+.open .dropdown-toggle.btn-baf {
+  color: #ffffff;
   background-color: #45739F; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf:active, 
-.btn-baf.active, 
-.open .dropdown-toggle.btn-baf { 
-  background-image: none; 
-} 
- 
-.btn-baf.disabled, 
-.btn-baf[disabled], 
-fieldset[disabled] .btn-baf, 
-.btn-baf.disabled:hover, 
-.btn-baf[disabled]:hover, 
-fieldset[disabled] .btn-baf:hover, 
-.btn-baf.disabled:focus, 
-.btn-baf[disabled]:focus, 
-fieldset[disabled] .btn-baf:focus, 
-.btn-baf.disabled:active, 
-.btn-baf[disabled]:active, 
-fieldset[disabled] .btn-baf:active, 
-.btn-baf.disabled.active, 
-.btn-baf[disabled].active, 
-fieldset[disabled] .btn-baf.active { 
-  background-color: #184367; 
-  border-color: #45739f; 
-} 
- 
-.btn-baf .badge { 
-  color: #184367; 
-  background-color: #ffffff; 
+  border-color: #45739f;
+}
+
+.btn-baf:active,
+.btn-baf.active,
+.open .dropdown-toggle.btn-baf {
+  background-image: none;
+}
+
+.btn-baf.disabled,
+.btn-baf[disabled],
+fieldset[disabled] .btn-baf,
+.btn-baf.disabled:hover,
+.btn-baf[disabled]:hover,
+fieldset[disabled] .btn-baf:hover,
+.btn-baf.disabled:focus,
+.btn-baf[disabled]:focus,
+fieldset[disabled] .btn-baf:focus,
+.btn-baf.disabled:active,
+.btn-baf[disabled]:active,
+fieldset[disabled] .btn-baf:active,
+.btn-baf.disabled.active,
+.btn-baf[disabled].active,
+fieldset[disabled] .btn-baf.active {
+  background-color: #184367;
+  border-color: #45739f;
+}
+
+.btn-baf .badge {
+  color: #184367;
+  background-color: #ffffff;
 }
 
 .grow, .grow-ios, .grow-icon {
