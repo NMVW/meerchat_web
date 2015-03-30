@@ -12,26 +12,26 @@
 /**
  * @license
  * MyFonts Webfont Build ID 2860038, 2014-08-08T15:24:51-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
  * Agreement(s) entered into by the website owner. All other parties are 
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: Forgotten Futurist by Typodermic
  * URL: http://www.myfonts.com/fonts/typodermic/forgotten-futurist/regular/
- * 
+ *
  * Webfont: Forgotten Futurist Bold by Typodermic
  * URL: http://www.myfonts.com/fonts/typodermic/forgotten-futurist/bold/
- * 
- * 
+ *
+ *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2860038
  * Licensed pageviews: 20,000
  * Webfonts copyright: (c) 1999-2012 Typodermic Fonts Inc. See attached license
  * agreement. If agreement is missing visit typodermicfonts.com for more info. Accents
  * by Chikako Larabie.
- * 
+ *
  * © 2014 MyFonts Inc
 */
 TO DO: Add acknowledgment to glyphicons artist.
@@ -92,7 +92,8 @@ TO DO: Add acknowledgment to glyphicons artist.
 
     <div class="col-md-4 text-center wow zoomIn" data-wow-delay="4s"
       style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
-      <a href="#features">
+      <a href="#features" data-toggle="modal" data-target="#features"
+        style="outline: 0;">
         <img src="img/home_screen.png" class="img-ios grow-ios" alt="Meerchat home screen">
       </a>
     </div><!--/.col-->
@@ -108,11 +109,40 @@ TO DO: Add acknowledgment to glyphicons artist.
       style="-webkit-animation-delay: 4s; -moz-animation-delay: 4s; animation-delay: 4s;">
       <div class="embed-responsive embed-responsive-16by9"
         style="background-color: #f2f2f2; margin-left: auto; margin-right: auto; margin-top: 24px;">
-        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nbjrU4qXXyk"></iframe>
+        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/nbjrU4qXXyk"></iframe>
       </div><!--/.embed-responsive-->
     </div><!--/.col-->
 
   </div><!--/.row-->
+
+  <div class="modal fade" id="features" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span style="color: #ffffff; font-size: 2.8em;" aria-hidden="true">
+              &times;
+            </span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">What does it do?</h4>
+        </div><!--/modal-header-->
+        <div class="modal-body">
+          <p class="text-center" style="font-size: 1.6em;">
+            Meerchat is an app for UF students to connect!
+          </p><ul>
+            <li>Post a short video of yourself that only nearby peers can see</li>
+            <li>Propose an activity you want to meet up and do</li>
+            <li>Use a #hashtag so others can find you</li>
+            <li>When someone wants to join, they respond with a private video of 
+               their own</li>
+            <li>Choose who to respond to, opening up a private chat so you can 
+              plan your meet up</li>
+            <li>Public videos only last 24 hours</li>
+          </ul>
+        </div><!--/modal-body-->
+      </div>
+    </div>
+  </div><!--/modal-->
 
   <div class="divider">
     <p class="text-center center-y" style="color: #ffffff; font-size: 1.25em;"></p>
@@ -120,7 +150,7 @@ TO DO: Add acknowledgment to glyphicons artist.
 
 </div><!-- /.container -->
 
-<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script>
@@ -128,7 +158,7 @@ TO DO: Add acknowledgment to glyphicons artist.
 </script>
 
 <script>
-$('#popover').popover({ 
+$('#popover').popover({
     html : true,
     title: function() {
       return $("#popover-head").html();
@@ -149,7 +179,7 @@ $(function(){
         alert("Successfully submitted.")
       }
     });
-  }); 
+  });
 });
 </script>
 
